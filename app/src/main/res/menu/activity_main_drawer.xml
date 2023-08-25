@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group
+        android:id="@+id/group1"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_home"
+            android:checkable="true"
+            android:icon="@drawable/h"
+            app:showAsAction="always|withText"
+            android:title="@string/home" />
+
+    </group>
+
+    <group
+        android:id="@+id/group2"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/menu_rate_us"
+            app:showAsAction="always|withText"
+            android:checkable="true"
+            android:icon="@drawable/rate_us"
+
+            android:title="@string/rate_us" />
+        <item
+            android:id="@+id/menu_share"
+            android:checkable="true"
+            app:showAsAction="always|withText"
+            android:icon="@drawable/share_app"
+
+            android:title="@string/share_app" />
+        <item
+            android:id="@+id/menu_about_us"
+            android:icon="@drawable/aboutus"
+            android:checkable="true"
+            app:showAsAction="always|withText"
+            android:title="@string/about_us" />
+    </group>
+    <group
+        android:id="@+id/all"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/menu_privacy"
+            app:showAsAction="always|withText"
+            android:icon="@drawable/p"
+            android:checkable="true"
+            android:title="@string/privacy_policy" />
+    </group>
+</menu>

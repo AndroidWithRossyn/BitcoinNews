@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.news.idetechmedia.bitcoinapp.Fragment.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home_menu" />
+    <fragment
+        android:id="@+id/nav_videos"
+        android:name="com.news.idetechmedia.bitcoinapp.bottomNavigationFragment.VideosMenuFragment"
+        android:label="@string/videos"
+        tools:layout="@layout/fragment_videos_menu" />
+    <fragment
+        android:id="@+id/nav_trending"
+        android:name="com.news.idetechmedia.bitcoinapp.bottomNavigationFragment.TrendingMenuFragment"
+        android:label="@string/trending"
+        tools:layout="@layout/fragment_trending_menu" />
+
+
+
+</navigation>

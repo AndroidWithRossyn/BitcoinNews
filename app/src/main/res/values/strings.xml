@@ -1,0 +1,513 @@
+<resources>
+    <string name="app_name">Bitcoin News</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_tab1">Tab 1</string>
+    <string name="title_tab2">Tab 2</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="videos">Videos</string>
+    <string name="trending">Trending</string>
+    <string name="rate_us">Rate Us</string>
+    <string name="share_app">Share</string>
+    <string name="about_us_app">About Us</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="home_first_tab_fragment">Home first tab fragment</string>
+    <string name="home_second_tab_fragment">Home second tab fragment</string>
+    <string name="privacy_policy">Privacy policy</string>
+    <string name="t_and_c">T &amp; C</string>
+    <string name="agree">I Agree</string>
+    <string name="choose">Choose</string>
+    <string name="select">Select</string>
+    <string name="content_topics">Content Topics</string>
+    <string name="your_lang">Your language</string>
+
+    <string name="privacy">PLEASE READ THIS PRIVACY POLICY CAREFULLY. BY ACCESSING OR USING THE SERVICE, YOU AGREE TO BE BOUND BY THE TERMS AND CONDITIONS DESCRIBED HEREIN AND ALL TERMS AND CONDITIONS INCORPORATED BY REFERENCE. IF YOU DO NOT AGREE TO ALL OF THE TERMS AND CONDITIONS SET FORTH BELOW, YOU MAY NOT USE THE Learning Tech Mania SERVICES.
+        
+\n1. Information We Collect
+\nPersonal Information
+\nPersonal Information is the type of information that specifically identifies or contacts a person, such as your full name or email address. We may collect personally identification information whenever Users enter into our app, fill out the form, to use our services, features or resources present in our app.
+\nIn the following circumstances, we may disclose your personal information according to your wish or regulations by law:
+\n1) Your prior permission,
+\n2) By the applicable law within or outside your country of residence,legal process, litigation requests,
+\n3) By requests from public and governmental authorities,
+\n4) To protect our legal rights and interests.
+\nNon-Personal Information
+\nNon-personal information is data in a form that does not permit direct association with any specific individual, such as your install, uninstall, Android ID, phone IMEI number, phone model etc.
+\nWe may collect and use non-personal information in the following circumstances.
+\n1) To have a better understanding in user’s behavior.
+\n2) Solve problems in products and services.
+\n3) Improve our products, services and advertising.
+\nWe may collect non-personal information such as the data of install, frequency of use,                          country and channel.
+\nInformation we get by using our services
+\nWe may collect information about the services that you use and how you use them, such as when you view and interact with our content. We may collect device-specific information (such as your hardware model, os version, and unique device identifiers). Learning Tech Mania  will not share that information with third parties.
+\nLocation information
+\nWhen you use a location-enabled Learning Tech Mania service, we may collect and process information about your actual location through GPS signals sent by a mobile device or Wifi in order to obtain your location for the purposes of providing our Service. We may also use various technologies to determine location, such as sensor data from your device that may, for example, provide information on nearby Wi-Fi access points and cell towers.
+\nUnique application numbers
+\nCertain services include a unique application number. This number and information about your installation (for example, the operating system type) may be sent to Learning Tech Mania when you install or uninstall that service or when that service periodically contacts our servers, such as for automatic updates
+\nWhat do we use your information for?
+\nAny general information we may collect from you may be used in one of the following ways. To personalize your experience, your information helps us to better respond to your individual need.
+\n1) To improve our app.
+        \n2) To provide best Services to users.
+ \n3) To improve customer service
+\nYour information will not be made available to anyone. Your information will not be sold, exchanged, transferred, or given to any other third party for any reason whatsoever, without your consent.
+\nHow do we use your information?
+
+
+
+\n1. ACCESS_NETWORK_STATE:
+
+
+
+\nSome of our applications may use this permission to access information about networks. In our apps we will just give you information about the network, such as whether you are connected to a network or not. We don’t collect and share information to others.
+
+
+
+\n2. ACCESS_COARSE_LOCATION
+
+
+
+\nSome of our applications may use this permission to access approximate location derived from network location sources such as cell towers and Wi-Fi. This information is untraceable. We don’t collect and share location information to others.
+
+
+
+\n3.  ACCESS_FINE_LOCATION
+
+
+
+\nSome of our applications may use this permission to access precise location derived from network location. This information is untraceable. We don’t collect and share location information to others.
+
+
+
+\n4. WRITE_EXTERNAL_STORAGE and READ_EXTERNAL_STORAGE
+
+
+
+\nSome of our applications may use these permissions to access Media files form USB storage. We don’t collect, store or share information.
+
+
+
+\n5.   INTERNET:
+
+
+
+\nSome of our applications may use this permission to open network sockets. In our apps we are using INTERNET permission to use the internet only. We don’t collect or transfer network information.
+
+
+
+\n6. READ_PHONE_STATE
+
+
+
+\nSome of our applications may use this permission to access phone state, including the phone number of the device, current cellular network information, the status of any ongoing calls, and a list of any phone Accounts registered on the device. We don’t collect, store or share any information.
+
+
+
+\n7.  CALL_PHONE
+
+
+
+\nSome of our applications may use this permission to initiate a phone call without going through the Dialer to check the USSD codes. We do not collect or share this information.
+
+
+
+\n8.READ_CONTACTS
+
+
+
+\nSome of our applications may use this permission to read your contact information when you request. We do not collect or share this information. We use this permission to announce caller name or to display dialed / received calls / missed calls when you request.
+
+
+
+\n9.READ_GSERVICES
+
+
+
+\nSome of our applications may use (parts of) the Google Services Framework, it must declare the READ_GSERVICES permission. This information is untraceable.
+
+
+
+\n10.VIBRATE
+
+
+
+\nSome of our applications may use this permission to know vibration state and change vibration state when user needs.
+
+
+
+\n11.WAKE_LOCK
+
+
+
+\nSome of our applications may use this permission to access Power Manager Wake Locks to keep processor from sleeping or screen from dimming. When user want to display digital clock on screen.
+
+
+
+\n12.RECEIVE_BOOT_COMPLETED
+
+
+
+\nSome of our applications may use this permission to allow alarm, Background services etc,. After booting has been completed.
+
+
+
+\n13. SET_ALARM
+
+
+
+\nSome of our applications may use this permission to access alarm from devices and sets.
+
+
+
+\n14.SEND_SMS, READ_SMS, RECEIVE_SMS
+
+
+
+\nSome of our applications may use these permissions to read, send or receive SMS from device. We don’t collect, save or share your messages. This is highly securable.
+
+
+
+\n15. SET_WALLPAPER
+
+
+
+\nSome of our applications may use this permission to set selected image as wallpaper.
+
+
+
+\n16.SET_WALLPAPER_HINTS
+
+
+
+\nSome of our applications may use this permission to adjust and resize selected wallpaper size.
+
+
+
+\n17.ACCESS_WIFI_STATE
+
+
+
+\nSome of our applications may use this permission to access information about Wi-Fi networks. We don’t collect or share any information about Wi-Fi.
+
+
+
+\n18. CHANGE_WIFI_STATE
+
+
+
+\nSome of our applications may use this permission to change Wi-Fi connectivity state (WIFI ON / WIFI OFF) when you request.
+
+
+
+\n19.BLUETOOTH
+
+
+
+\nSome of our applications may use this permission to connect the paired Bluetooth devices when you request.
+
+
+
+\n20.BLUETOOTH_ADMIN
+
+
+
+\nSome of our applications may use this permission to discover and pair Bluetooth devices.
+
+
+
+\n21. BLUETOOTH_PRIVILEGED
+
+
+
+\nSome of our applications may use this permission to pair Bluetooth devices without user interaction, and to allow or disallow phonebook access or message access. We don’t save or share information.
+
+
+
+\n22.  WRITE_SECURE_SETTINGS
+
+
+
+\nSome of our applications may use this permission to access device secure settings. We don’t collect or share information.
+
+
+
+\n23.  WRITE_SETTINGS
+
+
+
+\nSome of our applications may use this permission to switch or adjust system settings such as ringtone, vibration and brightness of the screen etc., when you request.
+
+
+
+\n24. CAMERA
+
+
+
+\nSome of our applications may use this permission to take photos / videos and turn ON/OFF Camera Flash, when you request. We do not save or upload your photos/videos.
+
+
+
+\n25. FLASHLIGHT
+
+
+
+\nSome of our applications may use this permission to turn ON/OFF Camera Flash. we use this permission for taking photos, flashlight on alert services or flashlight on clap services.
+
+
+
+\n26. DISABLE_KEYGUARD
+
+
+
+\nSome of our applications may use this permission to access our application functionality after the screen turned off.
+
+
+
+\n27. RECORD_AUDIO
+
+
+
+\nSome of our applications may use this permission to record an audio sound when you request. We don’t collect or share the information.
+
+
+
+\n28. MODIFY_AUDIO_SETTINGS
+
+
+
+\nSome of our applications may use this permission to modify global audio settings as your request.
+
+
+
+\n29. BATTERY_STATS
+
+
+
+\nSome of our applications may use this permission to access battery information such as battery percentage, capacity etc., to display battery performance.
+
+
+
+\n30. GET_ACCOUNTS
+
+
+
+\nSome of our applications may use this permission to detect whether users have a Google accounts or not, to confirm the state of Google Services, provide users with particular application download or update methods. We don’t share or save your account information in any manner. It is highly securable.
+
+
+
+\n31.SYSTEM_ALERT_WINDOW
+
+
+
+\nSome of our applications may use this permission to create windows and may show on top of other application.
+
+
+
+\n32.READ_CALENDAR
+
+
+
+\nSome of our applications may use this permission to read CALENDER info. We don’t share and save this information.
+
+
+
+\n33. READ_CALL_LOG and WRITE_CALL_LOG
+
+
+
+\nSome of our applications may use these permissions to display call logs from devices. We don’t collect, save or share your call information. This is highly securable.
+
+
+
+\n34. CLEAR_APP_CACHE
+
+
+
+\nSome of our applications may use this permission to clear all the caches from all installed applications when you request.
+
+
+
+\n35.KILL_BACKGROUND_PROCESSES
+
+
+
+\nSome of our applications may use this permission to clear all the background process from your device when you request.
+
+
+
+\n36. GET_PACKAGE_SIZE
+
+
+
+\nSome of our applications may use this permission to find out the space of used applications So, you can manage mobile space.
+
+
+
+\n37. MOUNT_UNMOUNT_FILESYSTEMS
+
+
+
+\nSome of our applications may use this permission to inserting and removing file systems for external storage.
+
+
+
+\n38. READ_SYNC_SETTINGS and WRITE_SYNC_SETTINGS
+
+
+
+\nSome of our applications may use these permissions to allow SYNC settings for battery power saving.
+
+
+
+\n39. RESTART_PACKAGES
+
+
+
+\nSome of our applications may use this permission to kill Background Processes. It allows them to break other applications by removing their alarms, stopping their services, etc. we use these permissions to improve mobile performance when user requests.
+
+
+
+\n40. REAL_GET_TASKS, GET_TASKS
+
+
+
+\nSome of our applications may use these permissions to get tasks. We don’t collect, save or share your task information.
+
+
+
+\n2. Ad Networks and Cross Promotion Ads
+
+
+
+\nWe welcome the third parties ad networks for accepting advertisements (banners, interstitials and video ads etc...). In our apps and games, these advertisements authorized to be displayed. Advertisers may use cookies and other web-tracking technologies to collect data, in case that user clicks on any of these advertisements.
+
+
+
+\nWe promote our own games, apps and services in different types of ways. That might include cross promoting one of our games or app while you are playing a different game of ours.
+
+
+
+\nWe display ads to cross promote apps and games, developed by us. We do not gather or share any of your personal identification information to display our ads.
+
+
+
+
+
+\n5. Kids Privacy Policy
+
+
+
+\nThis Kids Privacy Policy has to be specified to indicate you, with guidance regarding our privacy policies with respect to collecting, using and disclosing personal information, regarding the legal guardian of a child under the age of 13 years old.
+
+
+
+\nMany of our Games/Apps are intended for general audiences, and we do not knowingly gather or use any Personal Information from children and kids under the age of 13. When users are identified as under 13, we will block such users from providing Personal Information or make sure to get prior parental consent before collecting Personal Information.
+
+
+
+\nIf you are a parent of a child under 13 years of age and you think your child has provided us with Personal Information, please contact us.
+
+
+
+\nWe offers mobile applications and games (Kids Apps), which are targeted to children under the age of 13 and also other apps are not targeted under the age of 13.
+
+
+
+\nIf you have additional questions about our Privacy Practices related to children under the age of 13, please contact us.
+
+
+
+\n5. Content Sharing
+
+
+
+\nYou understand and agree that all Content that you have to be sent using our Services (For example data, sound, photographs, graphics or video), whether publicly posted or privately sent, is the sole responsibility of the person that sent the Content. This means that you, not us, are entirely responsible for all Content that you may upload, communicate, transmit or otherwise make available through our Services.
+
+
+
+\n6. Safeguards
+
+
+
+\nWe store Personal information collected by us in secure operating environments that are not obtainable to the public and that are only accessible by authorized employees. We should also provide security measures in place to protect the loss, misuse, and alteration of the information under our control.
+
+
+
+\n7. Changes to our Privacy Policy
+
+
+
+\nLearning Tech Mania may, in its sole discretion, modify or update this Privacy Policy from time to time, and so you should review this page periodically. When we change the policy, we will update the ‘last modified’ date at the top of this page.
+
+\n<b>Thank You!</b></string>
+    <string name="etherum">Ethereum</string>
+    <string name="bitcoin">Bitcoin</string>
+
+    <string name="stellar">Stellar</string>
+    <string name="cardano">Cardano</string>
+    <string name="dogecoin">Dogecoin</string>
+    <string name="tether">Tether</string>
+    <string name="coin">USD Coin</string>
+    <string name="xrp">XRP</string>
+    <string name="solana">Solana</string>
+    <string name="avalanche">Avalanche</string>
+    <string name="cosmos">Cosmos</string>
+    <string name="ripple">Ripple</string>
+    <string name="shiba_inu">Shiba Inu</string>
+    <string name="polkadot">Polkadot</string>
+    <string name="tron">TRON</string>
+    <string name="polygon">Polygon</string>
+    <string name="litecoin">Litecoin</string>
+    <string name="terra">Terra</string>
+    <string name="cronos">Cronos</string>
+    <string name="fix_token">FTX Token</string>
+    <string name="fantom">Fantom</string>
+    <string name="chromia">Chromia</string>
+    <string name="monero">Monero</string>
+    <string name="bnb">BNB</string>
+    <string name="eos">EOS</string>
+    <string name="dai">Dai</string>
+    <string name="next">Next</string>
+    <string name="home">Home</string>
+    <string name="settings">Settings</string>
+    <string name="help">Help</string>
+    <string name="about_us">About Us</string>
+    <string name="dash">Dash</string>
+    <string name="bitcoin_news">https://cointelegraph.com/news/bitcoin-ready-to-attack-key-trendline-says-data-as-btc-price-holds-20k</string>
+    <string name="etherum_news">https://cryptobriefing.com/ethereum-jumps-12-as-the-merge-draws-nearer/</string>
+    <string name="stellar_news">https://ambcrypto.com/stellar-xlm-holders-should-know-this-before-squaring-off-their-position/</string>
+    <string name="cardano_news">https://www.coingecko.com/en/coins/cardano</string>
+    <string name="dogecoin_news">https://www.financialexpress.com/digital-currency/dogecoin-doge-price-today-why-dogecoin-is-going-up/2568915/</string>
+    <string name="tether_news">https://www.coingecko.com/en/coins/tether</string>
+    <string name="usdcoin_news">https://www.investorsobserver.com/news/crypto-update/usd-coin-usdc-how-does-the-chart-look-sunday-3</string>
+    <string name="xrp_news">https://time.com/nextadvisor/investing/cryptocurrency/price/ripple-xrp/</string>
+    <string name="solana_news">https://www.coingecko.com/en/coins/solana</string>
+    <string name="avalanche_news">https://www.coingecko.com/en/coins/avalanche</string>
+    <string name="cosmos_news">https://www.business2community.com/crypto-news/cosmos-crypto-price-prediction-2022-will-atom-cosmos-go-up-02522643</string>
+    <string name="ripple_news">https://u.today/ripple-co-founder-jed-mccaleb-made-u-turn-on-selling-his-last-5-million-xrp-heres-why</string>
+    <string name="shibainu_news">https://u.today/shiba-inu-discloses-key-bone-updates-as-release-of-shibarium-approaches</string>
+    <string name="polkadot_news">https://insidebitcoins.com/news/polkadot-price-prediction-for-today-july-17-dot-slides-below-8-level</string>
+    <string name="tron_news">https://ambcrypto.com/how-tron-trx-is-managing-to-keep-its-boat-afloat-amid-looming-depegging-fears/</string>
+    <string name="polygon_news">https://www.coingecko.com/en/coins/polygon</string>
+    <string name="litecoin_news">https://www.coingecko.com/en/coins/litecoin</string>
+    <string name="terra_news">https://gadgets360.com/finance/terra-price-in-india-today-inr</string>
+    <string name="cronos_news">https://www.marketwatch.com/investing/stock/cron</string>
+    <string name="fix_token_news">https://www.coinbase.com/price/ftx-token</string>
+    <string name="fantom_news">https://www.coingecko.com/en/coins/fantom</string>
+    <string name="chromia_news">https://www.coingecko.com/en/coins/chromia</string>
+    <string name="monera_news">https://coinmarketcap.com/currencies/monero/</string>
+    <string name="bnb_news">https://www.binance.com/en/price/bnb</string>
+    <string name="eos_news">https://www.coingecko.com/en/coins/eos</string>
+    <string name="dai_news">https://www.coingecko.com/en/coins/dai</string>
+    <string name="dash_news">https://www.coingecko.com/en/coins/dash</string>
+    <string name="videos_news">https://www.ndtv.com/video</string>
+    <string name="trending_news">https://economictimes.indiatimes.com/newslist/82519373.cms</string>
+
+</resources>
